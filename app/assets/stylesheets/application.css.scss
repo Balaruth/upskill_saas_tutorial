@@ -38,6 +38,14 @@ h1, h2, h3 {
   border: none;
 }
 
+.container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  margin-left: 20px;
+}
+
+.navbar-right {
+  margin-right: 20px;
+}
+
 .navbar-brand {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
