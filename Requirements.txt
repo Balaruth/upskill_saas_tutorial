@@ -3,3 +3,27 @@ Memberships
 * User should see link for Pto plan on homepage
 * Basic plan link should point to regular Devise signup form
 * Pro plan link should point to a custom sign up form
+
+ActiveRecord is how Rails queries the database. ActiveRecord is the M in MVC (the model). Views are where we put our html and show pages,
+Controllers are what handle HTTP requests, and the Model is the prototype of an object.
+
+A class inheriting from ActiveRecord is inheriting from a library of code built into Rails (which is called ActiveRecord and is its own class).
+AR is a bunch of capabilities that can be given to any class through inheritance. A class can be thought of a blueprint.
+
+Everything is an object - each object gets classified using model files and what each model contains can be seen in the schema.rb file. So for
+example the user model has things like a name and a password and an email and a plan ID, which you can see in Schema.
+
+The database is built on SQL (structured query language). ActiveRecord saves you from needing to write SQL and instead write things closer
+to English syntax. ActiveRecord is a middleman between raw SQL and the user.
+
+Parameters are for accessing data sent by a user or other parameters in controller actions.
+
+Two kinds of parameters are possible in a WebApp
+
+1. Part of the URL (query string parameters) <- Example is the sign up form buttons
+2. POST data (usually comes from a HTML form filled in by a user) <- Example is the contact us form
+
+Both are available in the params hash in the controller.
+
+
+Substitution
